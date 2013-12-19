@@ -24,11 +24,7 @@ peer.on('open', function(id) {
 
 peer.on('connection', function (conn) {
     conn.on('data', function (payload){
-      var x = payload.posX;
-      var y = payload.posY;
-      document.getElementById("arrow").style.display="inline";
-      document.getElementById("arrow").style.top = y + "px";
-      document.getElementById("arrow").style.left = x + "px";
+      mousePaint(payload);
     });
 });
 
