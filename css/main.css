@@ -1,0 +1,30 @@
+* {
+  font-family: 'Graduate', cursive;
+}
+
+#arrow {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+iframe {
+  height: 49%;
+  width: 49%;
+  border:1px solid #ccc;
+}
+
+.sketchbox {
+  width: 80%;
+  height:80%;
+}
+
+.right{
+  float: right;
+
+}
+
+.left{
+  float: left;
+}
